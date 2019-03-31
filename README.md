@@ -18,7 +18,7 @@ send命令
 
 我在UDP的数据部分又加上了一个头(包括来源端口, 目的端口, 顺序号, 确认号). 如图
 
-![报文格式](C:/Users/%E6%9D%A8%E8%B5%B7/Documents/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/datagram_form.png)
+![报文格式](https://github.com/lost222/My_FTP/blob/master/image/datagram_form.png)
 
 ```c++
 struct fake_tcp_Datagram
@@ -276,17 +276,17 @@ int mode;
 
 #### ls 和 cd 命令
 
-![ls](C:/Users/%E6%9D%A8%E8%B5%B7/Documents/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/ls.png)
+![ls](https://github.com/lost222/My_FTP/blob/master/image/ls.png)
 
 #### send命令
 
-![](C:/Users/%E6%9D%A8%E8%B5%B7/Documents/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/send.png)
+![](https://github.com/lost222/My_FTP/blob/master/image/send.png)
 
 send命令运行完成之后, client回到`code`模式, server 回到`server`模式, 可以正常进行下一条命令的发送和响应
 
 #### get命令
 
-![](C:/Users/%E6%9D%A8%E8%B5%B7/Documents/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/get.png)
+![](https://github.com/lost222/My_FTP/blob/master/image/get.png)
 
 
 
@@ -336,11 +336,11 @@ send命令运行完成之后, client回到`code`模式, server 回到`server`模
 
 蓝色和橙色是两个客户端, 他们各自得到了一个单独的`server进程` , 互不干扰地得到了服务.
 
-![多用户](C:/Users/%E6%9D%A8%E8%B5%B7/Documents/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/mulUsers.png)
+![多用户](https://github.com/lost222/My_FTP/blob/master/image/mulUsers.png)
 
 多用户实际程序运行截图
 
-![mulUserShow](C:/Users/%E6%9D%A8%E8%B5%B7/Documents/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/mulUserShow.png)
+![mulUserShow](https://github.com/lost222/My_FTP/blob/master/image/mulUserShow.png)
 
 左边是两个客户端, 右边是两个独立的`server进程` 中间是负责分配服务资源的的 `listen_server`进程
 

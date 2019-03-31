@@ -8,7 +8,7 @@
 
 send命令
 
-![](C:/Users/%E6%9D%A8%E8%B5%B7/Documents/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/sendShow.png)
+![](https://github.com/lost222/My_FTP/blob/master/image/sendShow.png)
 
 左边客户端, 右边服务器, 各自显示了自己所处文件夹下的文件(文件左边的是文件大小,文件大小为0的是文件夹),右边那一排是停等协议的ACK. 具体协议的交互流程请看后文**协议时序**
 
